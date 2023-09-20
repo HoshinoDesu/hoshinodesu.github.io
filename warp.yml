@@ -19,6 +19,7 @@ dns:
 proxies:
   - {name: "☁️ CFWarp",type: wireguard,server: 162.159.192.176,port: 3854,ip: 172.16.0.2,private-key: kCjOr8EgyV7IB1k8Eee5XjlRDGCTA/7MhZGlzzq7bEw=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
   - name: 🚀 节点选择
+proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择

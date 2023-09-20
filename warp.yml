@@ -23,10 +23,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - ☁️ CFWarp-A
-      - ☁️ CFWarp-B
-      - ☁️ CFWarp-C
-      - ☁️ CFWarp-D
+      - ☁️ CFWarp
       - DIRECT
   - name: ♻️ 自动选择
     type: url-test
@@ -34,28 +31,19 @@ proxy-groups:
     interval: 3600
     tolerance: 200
     proxies:
-      - ☁️ CFWarp-A
-      - ☁️ CFWarp-B
-      - ☁️ CFWarp-C
-      - ☁️ CFWarp-D
+      - ☁️ CFWarp
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ☁️ CFWarp-A
-      - ☁️ CFWarp-B
-      - ☁️ CFWarp-C
-      - ☁️ CFWarp-D
+      - ☁️ CFWarp
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ☁️ CFWarp-A
-      - ☁️ CFWarp-B
-      - ☁️ CFWarp-C
-      - ☁️ CFWarp-D
+      - ☁️ CFWarp
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -86,10 +74,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ☁️ CFWarp-A
-      - ☁️ CFWarp-B
-      - ☁️ CFWarp-C
-      - ☁️ CFWarp-D
+      - ☁️ CFWarp
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

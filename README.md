@@ -1,2 +1,2 @@
-# hoshimodesu.github.io
+# hoshinodesu.github.io
 just a page
